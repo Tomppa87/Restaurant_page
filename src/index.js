@@ -1,6 +1,7 @@
 import {pageLoad} from "./page_load";
 import {aboutPageLoad} from "./about";
 import {menuPageLoad} from "./menu";
+import "./styles.css";
 
 pageLoad();
 let content = document.getElementById("content");

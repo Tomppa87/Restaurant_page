@@ -1,0 +1,38 @@
+body {
+    background-image: url("./Images/dish.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#menuHeader {
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+ul {
+    padding: 30px;
+    width: fit-content;
+    background-color: #cccccc;
+    opacity: 0.8;
+    border: #cccccc solid;
+    border-radius: 15%;
+}
+
+li {
+    list-style: none;
+    padding: 10px;;
+}
