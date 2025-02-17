@@ -2,6 +2,7 @@ export function menuPageLoad() {
     let content = document.getElementById("content");
     // create container for menu to be added to content page
     let menuPage = document.createElement("div");
+    menuPage.id = "menuPage"
     // create date for menu header
     let date = new Date();
     let dnum = date.getDay();
@@ -12,7 +13,7 @@ export function menuPageLoad() {
     // create menu header with date as H2    
     let menuHeader = document.createElement("h2");
     menuHeader.id = "menuHeader"
-    menuHeader.innerHTML = ("Menu for" +" "+ dname+" " + dday+"." + (month+1));
+    menuHeader.innerHTML = ("Menu for" +" "+ dname+" " + dday+"." + (month+1)).toUpperCase();
     menuPage.appendChild(menuHeader);
 
     // create menu items as list

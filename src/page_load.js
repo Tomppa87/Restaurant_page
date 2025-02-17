@@ -1,6 +1,7 @@
 export function pageLoad() {
     let content = document.getElementById("content");
     let homePage = document.createElement("div");
+    homePage.id = "homePage"
     let homeHead = document.createElement("h2");
     homeHead.innerHTML = "Rantolan Puoti"
     homePage.appendChild(homeHead)
